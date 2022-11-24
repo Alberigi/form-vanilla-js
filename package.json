@@ -1,17 +1,16 @@
 {
-  "name": "calculadora",
-  "private": true,
+  "name": "form-vanilla-js",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "build": "vite build"
   },
   "devDependencies": {
-    "@vitest/coverage-c8": "^0.25.2",
-    "vite": "^3.2.3",
-    "vitest": "^0.25.2"
+    "vite": "^3.2.3"
+  },
+  "dependencies": {
+    "sass": "^1.56.1"
   }
 }

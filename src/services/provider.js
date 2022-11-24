@@ -1,9 +1,3 @@
-import { CalculatorService } from "./calculator.service";
+import { FormService } from "./form.service";
 
-const previousValues = document.querySelector("#previousValues");
-const currentValues = document.querySelector("#currentValues");
-
-export const calculatorService = new CalculatorService(
-  previousValues,
-  currentValues
-);
+export const formService = new FormService();
