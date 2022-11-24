@@ -1,5 +1,5 @@
 <h1 align="center">
-  Calculadora
+  Form in vanilla javascript
 </h1>
 
 ## :rocket: Technology
@@ -8,12 +8,13 @@ This project was developed with the following technologies:
 
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [SASS](https://sass-lang.com/)
+- [BOOTSTRAP.V5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 - [Vite](https://vitejs.dev/guide/)
 
 ## 💻 About this Project
 
-A Calculator in HTML, CSS and JavaScript Vanilla, with basic math operations, and test coverage with vitest.
+A registration form in vanilla javascript, HTML, SASS, Bootstrap.v5, and test coverage with vitest.
 
 ## Getting Started
   
@@ -29,9 +30,8 @@ A Calculator in HTML, CSS and JavaScript Vanilla, with basic math operations, an
 
 ## Pending features
 
-- [X] e2e tests
-- [X] unit tests
-- [ ] change to scss
+- [ ] e2e tests
+- [ ] unit tests
 - [ ] eslint configuration
 
 ---
