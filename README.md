@@ -9,7 +9,7 @@ This project was developed with the following technologies:
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [SASS](https://sass-lang.com/)
-- [BOOTSTRAP.V5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+- [Bootstrap.v5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 - [Vite](https://vitejs.dev/guide/)
 
 ## 💻 About this Project
