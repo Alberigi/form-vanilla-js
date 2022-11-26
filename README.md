@@ -32,7 +32,6 @@ A registration form in vanilla javascript, HTML, SASS, Bootstrap.v5, and test co
 
 - [ ] e2e tests
 - [ ] unit tests
-- [ ] eslint configuration
 
 ---
 
