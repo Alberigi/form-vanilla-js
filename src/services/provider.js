@@ -1,3 +1,5 @@
 import { FormService } from "./form.service";
+import { CustomToastService } from "./customToast.service";
 
-export const formService = new FormService();
+const customToastService = new CustomToastService();
+export const formService = new FormService(customToastService);

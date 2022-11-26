@@ -1,5 +1,7 @@
 export class FormService {
-  constructor() {
+  constructor(customToastService) {
+    this.customToastService = customToastService;
+
     const form = document.getElementById("form");
 
     form.addEventListener("submit", (e) => {
@@ -28,8 +30,15 @@ export class FormService {
   }
 
   sendForm() {
-    const formData = this.getFormData();
-    this.validateData(formData);
-    console.log(formData);
+    try {
+      const formData = this.getFormData();
+      this.validateData(formData);
+      this.customToastService.success(
+        `${formData.name} your form has been registered successfully`
+      );
+      console.log(formData);
+    } catch (error) {
+      this.customToastService.error(error.message);
+    }
   }
 }
